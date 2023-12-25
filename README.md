@@ -42,7 +42,7 @@ Installation
 
 ``` {.sourceCode .bash}
 $ docker pull bluet/proxybroker2
-$ echo 'alias proxybroker="docker run -v --rm bluet/proxybroker2"' >> ~/.bashrc && . ~/.bashrc # create alias
+$ echo 'alias proxybroker="docker run -p 8888:8888 -v --rm bluet/proxybroker2"' >> ~/.bashrc && . ~/.bashrc # create alias
 ```
 
 Usage. CLI Examples
